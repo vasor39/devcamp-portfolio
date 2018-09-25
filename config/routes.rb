@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   devise_for :users, path: '', path_names: {
     sign_in: 'login', sign_up: 'register', sign_out: 'logout'
   }
-  resources :portfolios, except: [:show]
+  resources :portfolios, except: [:show] do
+    put :sort, on: :collection
+  end
   # get 'pages/home'
   get 'angular-items', to: 'portfolios#angular'
   get 'about', to: 'pages#about'
