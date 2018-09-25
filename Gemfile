@@ -69,3 +69,5 @@ gem "font-awesome-rails", "~> 4.7"
 gem "kaminari", "~> 1.1"
 
 gem "jquery-ui-rails", "~> 6.0"
+
+gem "jquery-rails", "~> 4.3"
