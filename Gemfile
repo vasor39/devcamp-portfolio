@@ -71,3 +71,7 @@ gem "kaminari", "~> 1.1"
 gem "jquery-ui-rails", "~> 6.0"
 
 gem "jquery-rails", "~> 4.3"
+
+gem "cocoon", "~> 1.2"
+
+gem "gritter", "~> 1.2"
