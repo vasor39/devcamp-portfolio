@@ -8,7 +8,7 @@ class BlogsController < ApplicationController
            except: [:destroy, :new, :create, :update, :edit, :toggle_status]
          },
          site_admin: :all
-
+  
   # GET /blogs
   # GET /blogs.json
   def index
